@@ -1,7 +1,15 @@
-html{
+html {
     box-sizing: border-box;
 }
 
-*, ::after, ::before{
+*,
+::after,
+::before {
     box-sizing: inherit;
+}
+
+body {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
 }
