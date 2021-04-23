@@ -41,9 +41,19 @@
 
 .article__button {
     border-radius: 30px;
+    border: 1px solid hsl(0, 0%, 95%);
     padding: 15px 35px;
     margin-top: 108px;
     margin-bottom: 45px;
     font-size: 15px;
     text-align: center;
+}
+.article__paragraph--orange{
+    color: hsl(31, 77%, 52%);
+}
+.article__paragraph--teal{
+    color:hsl(184, 100%, 22%) ;
+}
+.article__button--darker{
+    color:  hsl(179, 100%, 13%);
 }
