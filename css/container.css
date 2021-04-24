@@ -1,16 +1,9 @@
 .cardsContainer{
     padding: 30px;
     margin: 0 auto;
-    
-    
-}
-@media(max-width:1440px){
-.cardsContainer{
     display: flex;
     justify-content: center;
     align-items:center;
-    max-width:980px;
+    max-width:899px;
     min-height: 100vh;
-}
-
 }

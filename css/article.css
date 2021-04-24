@@ -1,15 +1,16 @@
 .article{
     padding: 20px;
-   
 }
 .article--first{
     background-color: var(--bright-orange);
+    border-radius: 15px 0 0 15px;
 }
 .article--second{
     background-color: var(--dark-cyan);
 }
 .article--third{
     background-color: var(--very-dark-cyan);
+    border-radius: 0 15px 15px 0;
 }
 .article__image{
     margin-top: 20px;
@@ -33,7 +34,7 @@
     border-radius: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
-    border: none;
+    border: 2px solid transparent;
     background-color: var(--very-light-gray);
 }
 .article__button--orange{
@@ -69,11 +70,4 @@
     transition: all .2s ease-in-out;
     cursor: pointer;
 }
-@media(max-width:1440px){
-  .article--first{
-      border-radius: 15px 0 0 15px;
-  }
-  .article--third{
-      border-radius: 0 15px 15px 0;
-  }
-}
+
