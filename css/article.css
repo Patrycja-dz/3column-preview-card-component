@@ -64,7 +64,7 @@
     background-color: var(--very-dark-cyan);
     color: var(--very-light-gray);
     border: 2px solid var(--very-light-gray);
-    transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 @media(max-width:1440px){
   .article--first{
