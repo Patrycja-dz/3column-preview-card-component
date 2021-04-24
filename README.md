@@ -3,7 +3,8 @@
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
-## Preview site [Click here] https://patrycja-dz.github.io/3column-preview-card-component/
+## Preview site :arrow_right: [clickHere](https://patrycja-dz.github.io/3column-preview-card-component/)
+
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
