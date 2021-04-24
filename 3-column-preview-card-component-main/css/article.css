@@ -1,5 +1,6 @@
 .article{
     padding: 20px;
+   
 }
 .article--first{
     background-color: var(--bright-orange);
@@ -23,12 +24,15 @@
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     color: var(--transparent-white);
-    line-height: 1.5;
+    line-height: 1.6;
+    max-width: 220px;
+    padding-bottom: 20px;
 }
 .article__button{
     padding: 10px 25px;
     border-radius: 20px;
     margin-top: 30px;
+    margin-bottom: 20px;
     border: none;
     background-color: var(--very-light-gray);
 }
@@ -36,9 +40,36 @@
     color:var(--bright-orange);
 
 }
+.article__button--orange:hover{
+    background-color: var(--bright-orange);
+    color: var(--very-light-gray);
+    border: 2px solid var(--very-light-gray);
+    transition: all 2s ease;
+}
+
 .article__button--teal{
     color: var(--dark-cyan);
 }
+.article__button--teal:hover{
+    background-color: var(--dark-cyan);
+    color: var(--very-light-gray);
+    border: 2px solid var(--very-light-gray);
+    transition: all 2s ease;
+}
 .article__button--darker{
     color: var(--very-dark-cyan);
+}
+.article__button--darker:hover{
+    background-color: var(--very-dark-cyan);
+    color: var(--very-light-gray);
+    border: 2px solid var(--very-light-gray);
+    transition: all 2s ease;
+}
+@media(max-width:1440px){
+  .article--first{
+      border-radius: 15px 0 0 15px;
+  }
+  .article--third{
+      border-radius: 0 15px 15px 0;
+  }
 }
