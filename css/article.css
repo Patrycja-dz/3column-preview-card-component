@@ -71,3 +71,11 @@
     cursor: pointer;
 }
 
+@media(max-width:560px){
+.article--first{
+    border-radius: 15px 15px 0 0;
+}
+  .article--third{
+    border-radius:  0 0 15px 15px;
+  }
+}
