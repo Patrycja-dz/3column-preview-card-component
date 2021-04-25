@@ -1,0 +1,9 @@
+.footer__paragraph{
+    text-align: center;
+    line-height: 1.7;
+    color: var(--very-dark-cyan);
+}
+.footer__link{
+    text-decoration: none;
+    color: var(--very-dark-cyan);
+};
